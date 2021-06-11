@@ -183,7 +183,7 @@ body
     {
         position: relative;
 
-        background: url('./../img/toolty.gif') no-repeat 50% 50% / cover;
+        background: url('./../img/toolty_bg.png') no-repeat 50% 50% / cover;
     }
 
     #p2 img
