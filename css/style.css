@@ -73,8 +73,6 @@ body
 
     #logo
     {
-        font-size: 40px;
-
         position: fixed;
         top: 0;
         left: 50%;
@@ -185,7 +183,7 @@ body
     {
         position: relative;
 
-        background: url('./../img/toolty_bg.png') no-repeat 50% 50% / cover;
+        background: url('./../img/toolty.gif') no-repeat 50% 50% / cover;
     }
 
     #p2 img
@@ -365,7 +363,7 @@ body
     {
         position: relative;
 
-        background: url('./../img/toolty_bg.png') no-repeat 50% 50% / cover;
+        background: url('./../img/toolty.gif') no-repeat 50% 50% / cover;
     }
 
     #p2 img
@@ -977,6 +975,26 @@ body
 .fb .works_content:hover
 {
     opacity: 1;
+}
+
+.fb .works_content:hover > p
+{
+    opacity: 1;
+}
+
+.works_content p
+{
+    font-size: 34px;
+    font-weight: 700;
+
+    padding-top: 600px;
+    padding-left: 40px;
+
+    transition: .5s;
+
+    opacity: 0;
+    color: #fff;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .7);
 }
 
 #w1_c1
