@@ -1,0 +1,50 @@
+<!-- 21761082_이경환 -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/fullpage.min.css">
+  <script type="text/javascript" src="./js/fullpage.min.js"></script>
+  <title>About HWAN</title>
+</head>
+
+<body>
+  <header>
+    <a href="./index.html" id="logo"><img src="./img/logo_c.png"></a>
+      <ul>
+        <a href="./about.html"><li>ABOUT LEE</li></a>
+        <a href="./ksad.html"><li>K-SAD</li></a>
+        <a href="./works1.html"><li>WORKS</li></a>
+      </ul>
+  </header>
+
+  <main id="fullpage">
+    <div id="p1" class="section">
+      <h1 class="title_text1"><span>HWAN</span> STUDIO는 자연 친화적인 디자인을 추구합니다</h1>
+    </div>
+    <div id="p2" class="section">
+      <img src="./img/toolty_logo.png">
+      <h1 class="title_text2">실시간으로 나만을 위한 툴 코치를 만나다 <br>강사 매칭 플랫폼, 툴티</h1>
+    </div>
+    <div id="p3" class="section">
+      <h1 class="title_text2">삼청동 로스터리 전문 <br> Cafe ROSSO 매니지먼트</h1>
+    </div>
+
+    <div id="p4" class="section">
+      <h1 class="title_text2">감정과 생각을 음악으로 표현하는 <br> 감성 듀오, 사이로 촬영</h1>
+    </div>
+  </main>
+
+  <script>
+    new fullpage('#fullpage', {
+      navigation: true,
+      navigationTooltips: ['motto', 'toolty', 'rosso', '415'],
+      scrollingSpeed: 700
+
+    });
+  </script>
+</body>
+
+</html>
