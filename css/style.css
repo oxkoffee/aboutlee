@@ -969,7 +969,7 @@ body
     width: 100%;
     height: 800px;
 
-    transition: 1s;
+    transition: .5s;
 
     opacity: .3;
 }
